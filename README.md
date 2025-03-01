@@ -48,7 +48,7 @@ Clone the Repository:
 
 bash
 Copy
-git clone https://github.com/your-username/virtual-doctor-chat-assistant.git
+git clone https://github.com/mediq-ai/mediq-ai.git
 cd virtual-doctor-chat-assistant/backend
 Install Dependencies:
 
@@ -63,8 +63,8 @@ Copy
 PORT=5000
 MONGO_URI=<your_mongo_connection_string>
 JWT_SECRET=<your_jwt_secret>
-GOOGLE_CLOUD_PROJECT=crafty-apex-442015-s4
-GOOGLE_APPLICATION_CREDENTIALS=./credentials/medic.json
+GOOGLE_CLOUD_PROJECT= <your_google_cloud_project>
+GOOGLE_APPLICATION_CREDENTIALS= /path/to/your/google/cloud/service/account/credential.json
 REGION=us-central1
 GCP_MEDLM_MODEL_ID=medlm-medium  # or medlm-large
 Note:
